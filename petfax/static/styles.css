@@ -8,6 +8,10 @@ button{
     border-radius: 25px;
     border: none;
 }
+.button, .button:visited{
+    text-decoration-color: #141517;
+    text-decoration: none;
+}
 
 .page_container{
     margin: auto;
@@ -24,6 +28,9 @@ button{
 }
 .page_container h2{
     color: #6bd478;
+}
+.page_container p{
+    color: #c1c2c5;
 }
 
 .container{
@@ -63,4 +70,13 @@ button{
 .show_container img{
     width: 75%;
     border-radius: 15px;
+}
+
+.form_container{
+    width: 100%;
+}
+.form_container input, textarea{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
