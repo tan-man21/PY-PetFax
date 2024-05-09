@@ -3,10 +3,11 @@ body{
 }
 
 button{
-    width: 100%;
     padding: 1%;
     border-radius: 25px;
     border: none;
+    display: block;
+    margin: auto;
 }
 .button, .button:visited{
     text-decoration-color: #141517;
@@ -77,6 +78,13 @@ button{
 }
 .form_container input, textarea{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 2px;
     margin-bottom: 10px;
+    border: none;
+}
+.form_container input{
+    height: 40px;
+}
+.form_container textarea{
+    height: 80px;
 }
