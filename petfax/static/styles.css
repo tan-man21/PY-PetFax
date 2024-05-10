@@ -30,6 +30,9 @@ button{
 .page_container h2{
     color: #6bd478;
 }
+.page_container h4{
+    color: #6bd478;
+}
 .page_container p{
     color: #c1c2c5;
 }
@@ -87,4 +90,14 @@ button{
 }
 .form_container textarea{
     height: 80px;
+}
+
+.fact_container{
+    border: 1px solid #6bd478;
+    padding: 1%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.fact_container a, a:visited{
+    text-decoration: none;
 }
